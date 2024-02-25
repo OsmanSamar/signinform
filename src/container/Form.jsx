@@ -9,11 +9,16 @@ const Form = () => {
   const [fname, setFname] = useState("");
   const [lname, setLname] = useState("");
   const [email, setEmail] = useState("");
-
   const [password, setPassword] = useState("");
 
+  {
+    /* <input className="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
+  <PiWarningCircleLight size={24} />
+</input>; */
+  }
+
   const [errorMessage, setErrorMessage] = useState({
-    fname: " ",
+    fname: "",
     lname: " ",
     email: " ",
     password: "",

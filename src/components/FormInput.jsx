@@ -69,9 +69,10 @@ const FormInput = ({
         <span className="mt-2 text-sm text-red-600">{isValid?.msg}</span>
       )}
       {error && <span className="mt-2 text-sm text-red-600">{error}</span>}
-      {/* <div className="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
-        <PiWarningCircleLight />
-      </div> */}
+
+      {/* <input className="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
+        <PiWarningCircleLight size={24} />
+      </input> */}
     </div>
   );
 };
