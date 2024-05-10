@@ -3,9 +3,9 @@ import SignIn from "./pages/SignIn";
 function App() {
   return (
     <>
-      <div className="bg-[#ec9494] mx-auto p-6  min-h-screen  ">
+      <div className="bg-[#ec9494]    p-6  min-h-screen  ">
         <div
-          className=" container flex flex-col items-center px-6  mt-5  space-y-0 
+          className=" container flex flex-col max-w-7xl mx-auto items-center px-6  mt-10  space-y-0 
           mobile-image p-8  
          md:space-y-0 md:flex-row  md:bg-image "
         >
@@ -26,8 +26,8 @@ function App() {
             {/* className="flex flex-col items-center w-[350px] md:w-[450px] mx-auto " */}
             <a
               href="#Try"
-              className="p-5 mb-1  text-center text-white bg-[#6d28d9] 
-            rounded  self-baseline  shadow-2xl w-full  md:w-[380px]    md:ml-8  "
+              className="p-4 mb-1 text-xs  text-center text-white bg-[#6d28d9] 
+            rounded  self-baseline  shadow-2xl w-full  md:text-sm md:w-[380px]    md:ml-8  "
             >
               Try it free 7 days then $20/mo. thereafter
             </a>

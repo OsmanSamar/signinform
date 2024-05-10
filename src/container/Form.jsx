@@ -78,7 +78,7 @@ const Form = () => {
   return (
     <form
       onSubmit={(text) => validate(text)}
-      className=" p-4 w-[290px] shadow-xl  
+      className=" p-4 w-[308px] shadow-xl  
           rounded-lg  bg-white md:w-full md:max-w-[390px] md:p-8 "
     >
       {/* <div className="text-center m-3"></div> w-full max-w-[450px] mx-auto */}
