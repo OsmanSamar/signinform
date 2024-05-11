@@ -71,7 +71,7 @@ const Form = () => {
     // If everything is valid, proceed with form submission
     if (isValid) {
       e.target.submit();
-      alert("Registered successfully! ");
+      alert("Registered Successfully! ");
     }
   };
 
