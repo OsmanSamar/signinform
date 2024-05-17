@@ -10,7 +10,7 @@ function App() {
       >
         <div
           className="  mx-auto grid grid-cols-1 gap-2 pt-20
-          pb-10 px-10 xl:px-[21vw] lg:grid-cols-2 lg:gap-10 lg:place-items-center
+          pb-10 px-10 xl:px-[14vw] lg:grid-cols-2 lg:gap-4 lg:place-items-center
            "
         >
           {/* className=" container flex flex-col max-w-7xl mx-auto items-center
